@@ -7,11 +7,11 @@ module.exports = function(passport) {
     new GoogleStrategy(
       {
         clientID: keys.googleClientID,
-        clientSecret: keys.clientSecret,
+        clientSecret: keys.googleClientSecret,
         callbackURL: "/auth/google/callback",
         proxy: true
       },
-      (accessToken, refreshToken, profile, cb) => {
+      (accessToken, refreshToken, profile, done) => {
         // User.findOrCreate({ googleId: profile.id }, function(err, user) {
         //   return cb(err, user);
         // });
