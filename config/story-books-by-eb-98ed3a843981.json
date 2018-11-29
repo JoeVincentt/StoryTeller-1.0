@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "story-books-by-eb",
+  "private_key_id": "98ed3a84398198254c8eb887db0863c06808e456",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCi5Rs7MInVzxdK\nk1gb4zcE5GqRj1FT/i5xNc2m6Vg+T8K9Zw5ySwuiYH3LIa7IlVtexn2oOkGQwM+X\nyyosa6t1xX9KBMsiVTsKnfkUgxTcVXZYRJF1E1f/398IPEm4u3KlnvAatbWoZOhp\n51q/Vlsmj9AoZaI/nRj7KyLW8DAdr+NYFAO7OxzCvB8ntGOYOllsRW7/kFTjULSt\nLVOaZzqBLvyl+xA+ZXku3NpFfB+vNXAX6XM2TQ/cSiSGun1Yyp65PlOhUtBpCwld\nem5M00exu14yCURGovaxQY9kGGnlpIzGPGMVZNAdQthYzR9q6i2VkHw4ld5t3Xk6\nEwOkrL2NAgMBAAECggEAMqchd59ZTRYPfQ4iWNGnuyq4BLlXJdIlaOi9IUjwOrgc\nqz7PnDS/0mdE1pSLwC3JcsgwLM6osrVyGBaB77wvXfji4wZokC2GpX+IA5vbMcSV\nf08bGBfCxns75Fiy5/HJ7bxllzin20w9hSj+6/6Ta4NOzDEGadeU/A1m0QVxQNl/\n7csSWZ00Mc0wrJaUvtp+Kd/HXjEbYO/0vgG+1ZFCP+mNaoLoRZgo3gl03LEwcM+V\noUhA+9tmW/8BupdHZurZDIzdgr+ccjmvNmLvg2kEY8LU9NctwsrppsohDmgpKv1A\n0mYr4/cm18woibkIVQzCQ79ZnjOCbuu2U401pgAw1QKBgQDllib4AF59A5tmKwWT\nc/xz+53Ostd1ew7LrX1rcrsVgm5QbBpvvEXh5NtD4Zk/o3FVCpTU/fwtaLNbFxFz\ns6w9iHi4M6LH/fNSPka0ysXdYKckTNqpIldLhNmj8LC9K+3ZnZHa6P3f/cSUdKJM\nFT811I10hggY0YVX8Z89IEnexwKBgQC1orwQog68bOrmtx/HSuEdDBWkBLYKARgy\nKPjeYLpHbN+IiWpowIaX2hZ0QesGti5fzihvL8gVC8wtuSkBoMTjhAiZaS0lwKaD\nmrwCsIma8mJdcx4q3QklxO+XOo82Zwz9gT2UF9ACMA/6yD9Z30H7zhsx1f1NL7tX\nWKm5/X99CwKBgDlg1G5o0TSXQTBAkk0u0Ko/+UmeYsDGt4Tp4A2Jh/4xMdbBnb3N\nJP32z2HgsQc5lup1EYtFys+ieijK1B7Bict7HwiSRx2Kd1RXoh4vC1JvhHZLCt74\naS7Djg0t603r+67GdZxrXH+tkYK0v5caPEj8zTmRAdcKDjRTe8OwHSYjAoGAWJoe\nhTqYV6AF4i+YJ95F+6ZmdBD8P9sS030bEVc75xWb4P2vU5P+09pFs8ZoAGkkLAXj\nwYEcZ+/OVMuKzkl/YcCJdVRR+qWEVJRJfEJjjZsJEq7SG3ShPrRXb3zYWWBhfNPr\nlu8av8Z0NRAznwKCLHP43hGVs25CQ7Rzbs/SvcsCgYEAsq/Hk4kukpO7EzQyq7Qm\nZTnvdgwX5O4NYs+o7MhvJY2WdVMZspPB3n+i/AeXR26NiRsoC0PhE5apidvd1+DB\n9Cs1HoqAtCyiRC2N74vcC3TLVSXn7IB+0vWEpSZJBmx1Xny5C62nKUHa+gAJvvV8\nyHTH2WuDhXyeaVBCViLNa1k=\n-----END PRIVATE KEY-----\n",
+  "client_email": "eugene@story-books-by-eb.iam.gserviceaccount.com",
+  "client_id": "111683465580498089711",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/eugene%40story-books-by-eb.iam.gserviceaccount.com"
+}
