@@ -1,4 +1,5 @@
 const express = require("express");
+const exphbs = require("express-handlebars");
 const mongoose = require("mongoose");
 const passport = require("passport");
 const cookieParser = require("cookie-parser");
@@ -12,6 +13,7 @@ require("./config/passport")(passport);
 
 //Load routes
 const auth = require("./routes/auth");
+const index = require("./routes/index");
 
 //Load keys
 const keys = require("./config/keys");
@@ -30,9 +32,14 @@ mongoose
 
 const app = express();
 
-app.get("/", (req, res) => {
-  res.send("It works!");
-});
+//HandleBars Middleware
+app.engine(
+  "handlebars",
+  exphbs({
+    defaultLayout: "main"
+  })
+);
+app.set("view engine", "handlebars");
 
 //Express middleware/ cookie-parser midle
 app.use(cookieParser());
@@ -55,6 +62,7 @@ app.use((req, res, next) => {
 });
 
 //Use Routes
+app.use("/", index);
 app.use("/auth", auth);
 
 const port = process.env.PORT || 5000;
