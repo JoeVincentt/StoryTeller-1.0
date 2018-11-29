@@ -9,7 +9,9 @@ module.exports = function(passport) {
       {
         clientID: keys.googleClientID,
         clientSecret: keys.googleClientSecret,
-        callbackURL: "/auth/google/callback",
+        callbackURL:
+          "https://immense-taiga-71853.herokuapp.com/" +
+          "/auth/google/callback",
         proxy: true
       },
       (accessToken, refreshToken, profile, cb) => {
