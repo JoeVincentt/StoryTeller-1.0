@@ -7,7 +7,7 @@ module.exports = function(passport) {
     new GoogleStrategy(
       {
         clientID: keys.googleClientID,
-        clientSecret: keys.clientSecret,
+        clientSecret: keys.googleClientSecret,
         callbackURL: "/auth/google/callback",
         proxy: true
       },

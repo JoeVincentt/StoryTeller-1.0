@@ -7,8 +7,6 @@ router.get(
   passport.authenticate("google", { scope: ["profile", "email"] })
 );
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 router.get(
   "/google/callback",
   passport.authenticate("google", { failureRedirect: "/" }),
@@ -17,8 +15,4 @@ router.get(
     res.redirect("/dashboard");
   }
 );
-=======
->>>>>>> parent of dbc6e7f... before heroku push
-=======
->>>>>>> parent of dbc6e7f... before heroku push
 module.exports = router;
