@@ -10,7 +10,7 @@ module.exports = {
     return str;
   },
 
-  stripTags: () => {
+  stripTags: input => {
     return input.replace(/<(?:.|\n)*?>/gm, "");
   }
 };
