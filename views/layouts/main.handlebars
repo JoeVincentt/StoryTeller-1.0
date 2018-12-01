@@ -43,9 +43,14 @@
 
             $('select').formSelect();
         });
-        CKEDITOR.replace('body', {
-            plugins: 'wysiwygarea,toolbar,basicstyles,link'
-        });
+
+        try {
+            CKEDITOR.replace('body', {
+                plugins: 'wysiwygarea,toolbar,basicstyles,link'
+            });
+        }
+        catch (error) { }
+
     </script>
 </body>
 
