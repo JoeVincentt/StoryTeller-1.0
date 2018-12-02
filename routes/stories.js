@@ -69,7 +69,7 @@ router.post("/", (req, res) => {
   });
 });
 
-//Edit form process
+//Edit Story form process
 router.put("/:id", (req, res) => {
   Story.findOne({
     _id: req.params.id
@@ -91,6 +91,13 @@ router.put("/:id", (req, res) => {
     story.save().then(story => {
       res.redirect("/dashboard");
     });
+  });
+});
+
+//Delete story
+router.delete("/:id", (req, res) => {
+  Story.deleteOne({ _id: req.params.id }).then(() => {
+    res.redirect("/dashboard");
   });
 });
 
