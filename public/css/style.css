@@ -27,3 +27,8 @@ footer {
 #delete-form {
   display: inline;
 }
+
+#user-box {
+  max-width: 270px;
+  margin-top: 88px;
+}
