@@ -1,5 +1,13 @@
-<h1>Welcome {{user.firstName}}</h1>
-<h4> Your stories</h4>
+<div class="container brand-logo center">
+
+    <h3>Welcome</h3>
+    <div class="chip">
+        <img src="{{user.image}}">
+        <a href="/stories/my">{{user.firstName}} {{user.lastName}}</a>
+    </div>
+    <h4>Your stories</h4>
+</div>
+
 {{#if stories}}
 <table class="striped">
     <thead>
@@ -13,15 +21,15 @@
     <tbody>
         {{#each stories}}
         <tr>
-            <td><a href="/stories/show/{{id}}">{{title}}</a></td>
+            <td><a class="black-text" href="/stories/show/{{id}}">{{title}}</a></td>
             <td>{{formatDate data "MMMM Do YYYY"}}</td>
             <td><span class="dash-status">{{status}}</span></td>
             <td>
-                <a href="/stories/edit/{{id}}" class="btn left-align waves-effect waves-light"><i class="fa fa-pencil"></i>
-                    Edit</a>
+                <a href="/stories/edit/{{id}}" class="btn left-align waves-effect waves-light #64dd17 light-green accent-4"><i
+                        class="fa fa-pencil"></i></a>
                 <form action="/stories/{{id}}?_method=DELETE" method="POST" id="delete-form">
                     <input type="hidden" name="_method" value="DELETE">
-                    <button type="submit" class="btn red waves-effect waves-light "><i class="fa fa-remove"></i> Delete</button>
+                    <button type="submit" class="btn red waves-effect waves-light #ff5722 deep-orange"><i class="fa fa-remove"></i></button>
                 </form>
             </td>
         </tr>
