@@ -16,7 +16,25 @@ main {
   font-size: 25px;
 }
 
+#header {
+  background-image: url("/css/header.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#main-menu {
+  background-image: url("/css/main-menu.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 footer {
+  background-image: url("/css/footer.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 100px;
 }
 

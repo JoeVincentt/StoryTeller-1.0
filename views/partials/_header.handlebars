@@ -1,4 +1,4 @@
-<nav class="grey darken-3">
+<nav class="grey darken-3" id="header">
     <div class="container">
         <div class="nav-wrapper">
             <a href="/" class="brand-logo center">StoryBooks</a>
@@ -22,13 +22,16 @@
                     <a class="btn red darken-1" href="/auth/google"><i class="fa fa-google left"></i> Google Login</a>
                 </li>
                 {{/if}}
-                <li><a href="/stories"><i class="fa fa-book"></i>Public Stories</a></li>
+
+                <li><a class="btn #fb8c00 orange darken-1 black-text" href="/stories"><i class="fa fa-book"></i>Public
+                        Stories</a></li>
                 <li class="divider"></li>
 
                 {{#if user}}
-                <li><a href="/dashboard"><i class="fa fa-cog"></i>Dashboard</a></li>
-                <li><a href="/stories/my"><i class="fa fa-user"></i>My Stories</a></li>
-                <li><a href="/auth/logout"><i class="fa fa-sign-out"></i> Logout</a></li>
+                <li><a class="btn black-text #e0e0e0 grey lighten-2" href="/dashboard"><i class="fa fa-cog"></i>Dashboard</a></li>
+                <li><a class="btn black-text #e0e0e0 grey lighten-2" href="/stories/my"><i class="fa fa-user"></i>My
+                        Stories</a></li>
+                <li><a class="btn black-text red darken-1" href="/auth/logout"><i class="fa fa-sign-out"></i> Logout</a></li>
                 {{/if}}
             </ul>
         </div>
