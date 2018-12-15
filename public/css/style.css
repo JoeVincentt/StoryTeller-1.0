@@ -6,6 +6,10 @@ body {
 
 main {
   flex: 1 0 auto;
+  background-image: url("/css/main_background.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .nav-wrapper .fa-bars {
@@ -13,7 +17,7 @@ main {
 }
 
 footer {
-  margin-top: 20px;
+  padding-top: 100px;
 }
 
 #story-box {
@@ -35,4 +39,14 @@ footer {
 
 #pencil-icon {
   font-size: 24px;
+}
+
+#morelinks {
+  padding-right: 20px;
+}
+
+@media (max-width: 700px) {
+  #morelinks {
+    padding-right: 80px;
+  }
 }
