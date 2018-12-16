@@ -2,6 +2,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  font-family: "Charm", cursive;
 }
 
 main {
@@ -10,6 +11,8 @@ main {
   background-size: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 80px;
+  padding-top: 40px;
 }
 
 .nav-wrapper .fa-bars {
@@ -35,7 +38,7 @@ footer {
   background-size: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 100px;
+  max-height: 220px;
 }
 
 #story-box {
@@ -66,5 +69,8 @@ footer {
 @media (max-width: 700px) {
   #morelinks {
     padding-right: 80px;
+  }
+  footer {
+    max-height: 100%;
   }
 }

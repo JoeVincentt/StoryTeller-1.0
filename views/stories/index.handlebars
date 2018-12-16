@@ -10,11 +10,11 @@
             </div>
             <div class="card-content center-align" id="story-box">
                 <h5>{{title}}</h5>
-                <p class="story-text">{{stripTags (truncate body 300)}}</p>
+                <p class="story-text">{{stripTags (truncate body 160)}}</p>
                 <br>
                 <div class="chip">
                     <img src="{{user.image}}">
-                    <a href="/stories/user/{{user.id}}"> {{user.firstName}} {{user.lastName}}</a>
+                    <a href="/stories/user/{{user.id}}">{{user.firstName}}</a>
                 </div>
 
             </div>
