@@ -35,7 +35,7 @@ module.exports = {
       if (floating) {
         return `<a href="/stories/edit/${storyId}" class="btn-floating halfway-fab red lighten-1 waves-effect waves-light btn-small"> <i class="fa fa-pencil"></i></a>`;
       } else {
-        return `<a href="/stories/edit/${storyId}"> <i id="pencil-icon" class="fa fa-pencil"></i></a>`;
+        return `<a href="/stories/edit/${storyId}"> <i id="pencil-icon" class="fa fa-pencil red-text"></i></a>`;
       }
     } else {
       return "";

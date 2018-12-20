@@ -119,7 +119,6 @@ router.put("/:id", (req, res) => {
     let allowComments;
 
     if (req.body.allowComments) {
-      console.log(req.body.allowComments);
       allowComments = true;
     } else {
       allowComments = false;
